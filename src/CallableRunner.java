@@ -14,7 +14,7 @@ class CallableTask implements Callable<String> {
 	
 	@Override
 	public String call() throws Exception {
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 		return "Hello " +  name;
 	}
 	
