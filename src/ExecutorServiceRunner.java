@@ -26,8 +26,8 @@ public class ExecutorServiceRunner {
 
 	public static void main(String[] args) {
 
-//		ExecutorService executorService = Executors.newSingleThreadExecutor();
-		ExecutorService executorService = Executors.newFixedThreadPool(5);
+//		ExecutorService executorService = Executors.newSingleThreadExecutor(); //settin a one thread
+		ExecutorService executorService = Executors.newFixedThreadPool(5); //setting a pool of 5 threads
 		
 		executorService.execute(new Task(1));
 		executorService.execute(new Task(2));
