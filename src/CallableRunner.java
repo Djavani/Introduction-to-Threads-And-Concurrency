@@ -34,7 +34,7 @@ public class CallableRunner {
 		
 		System.out.println(welcomeMessage);
 		
-		System.out.println("\n Main completed");
+		System.out.print("\n Main completed");
 		
 		executorService.shutdown();
 	}
